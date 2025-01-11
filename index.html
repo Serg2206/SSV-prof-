@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="SSV Prof - Cutting-edge platform for innovative solutions in emergency and oncological surgery.">
+    <meta name="keywords" content="medical innovations, remote consultations, patient management, medical library">
+    <meta name="theme-color" content="#007BFF">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'self'; frame-ancestors 'none';">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="X-Frame-Options" content="DENY">
+    <meta http-equiv="X-XSS-Protection" content="1; mode=block">
+    <title>SSV Prof - Medical Innovations</title>
+    <!-- Подключение файла стилей -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html" aria-label="Home">Home</a></li>
+                <li><a href="about.html" aria-label="About">About</a></li>
+                <li><a href="library.html" aria-label="Library">Library</a></li>
+                <li><a href="consultations.html" aria-label="Consultations">Consultations</a></li>
+                <li><a href="services.html" aria-label="Services">Services</a></li>
+                <li><a href="pricing.html" aria-label="Pricing">Pricing</a></li>
+                <li><a href="contact.html" aria-label="Contact">Contact</a></li>
+                <li><a href="login.html" aria-label="Login">Login</a></li>
+            </ul>
+        </nav>
+        <h1>Welcome to SSV Prof</h1>
+        <p>Innovative Medical Solutions for Professionals</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>Our Features</h2>
+            <div class="consultations">
+                <div class="feature">
+                    <h3>Remote Consultations</h3>
+                    <p>Get expert opinions and discuss cases with specialists in real-time.</p>
+                    <button class="btn" data-modal="Remote consultations are currently under development." aria-label="Start remote consultations">Start Now</button>
+                </div>
+                <div class="feature">
+                    <h3>Lectures & Presentations</h3>
+                    <p>Access a library of lectures, medical videos, and case presentations.</p>
+                    <button class="btn" data-modal="Explore our library of lectures and presentations." aria-label="Explore lectures and presentations">Explore</button>
+                </div>
+                <div class="feature">
+                    <h3>Patient Database</h3>
+                    <p>Manage and optimize patient records with AI-driven analytics.</p>
+                    <button class="btn" data-modal="Patient database management is under development." aria-label="Manage patient database">Manage Data</button>
+                </div>
+            </div>
+        </section>
+
+        <div class="modal" id="infoModal">
+            <div class="modal-content">
+                <span class="close-btn">&times;</span>
+                <p id="modal-text"></p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 SSV Prof. All rights reserved.</p>
+    </footer>
+
+    <script src="js/scripts.js" defer></script>
+</body>
+</html>
